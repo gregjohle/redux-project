@@ -1,8 +1,8 @@
 const reducer = (state = 0, action) => {
   switch (action.type) {
-    case "incriment":
+    case "increment":
       return state + action.payload;
-    case "decriment":
+    case "decrement":
       return state - action.payload;
     default:
       return state;
